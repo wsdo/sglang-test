@@ -59,7 +59,7 @@ def batch():
 
 
 if __name__ == "__main__":
-    runtime = sgl.Runtime(model_path="Qwen-7B-Chat")
+    runtime = sgl.Runtime(model_path="/root/autodl-tmp/Qwen-7B-Chat")
     sgl.set_default_backend(runtime)
 
     # Run a single request
